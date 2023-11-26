@@ -19,3 +19,5 @@ Phosphor is a flexible icon family for interfaces, diagrams, presentations — w
 
 `npm i react-router-dom`
 react-router-dom is the DOM bindings for React Router, a library for handling routing in React applications. It enables the creation of dynamic and navigable user interfaces by defining routes and rendering components based on the current URL.
+
+Live Demo: https://reactshopping-cart-context.netlify.app/
