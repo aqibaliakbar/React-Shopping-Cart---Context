@@ -1,0 +1,45 @@
+.navbar{
+	width: 100%;
+	height: 80px;
+	background-color: black;
+	display: flex;
+	justify-content: space-between;
+	align-items: center ;
+	opacity: 0.9;
+	position: fixed;
+	top: 0;
+	border-bottom: 1px solid rgb(252, 252, 252);
+
+}
+
+.links{
+	margin-right: 16px;
+	display: flex;
+	align-items: center;
+
+}
+
+.links a{
+	text-decoration: none;
+	color: #fff;
+	margin-left: 20px;
+	font-size: 25px;
+
+}
+
+.navbar p{
+	position: absolute;
+	top: -1px;
+	right: 10px;
+	background: #fff;
+	width: 25px;
+	border-radius: 100%;
+	color: #080b16;
+	text-align: center;
+}
+
+@media screen and (max-width: 550px) {
+	.links {
+		margin-right: 20px;
+	}
+}
